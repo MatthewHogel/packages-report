@@ -24,3 +24,5 @@ ggsave(here("figs", "built-barchart.png"), width = 6, height = 4, units = "in")
 
 ## YES overwrite the file that is there now
 ## that's old output from me (Jenny)
+
+devtools::session_info()
